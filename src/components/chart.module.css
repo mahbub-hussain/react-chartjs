@@ -1,0 +1,32 @@
+.totalstats,
+.dailystats {
+  position: relative;
+  width: 95%;
+  max-width: 600px;
+  margin: 20px;
+  border-radius: 2px;
+}
+.totalstats {
+  background: #798580;
+}
+.dailystats {
+  background: #333836;
+}
+.timeserise {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 20px;
+  background: #dfe2e1;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 550px) {
+  .timeserise {
+    margin: 10px;
+  }
+  .totalstats,
+  .dailystats {
+    margin: 10px;
+  }
+}
